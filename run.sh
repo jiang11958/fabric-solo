@@ -27,7 +27,7 @@ function installPkg(){
 
 	##### down fabric binary tool
 	if [ ! -f ./bin/cryptogen ]; then
-		curl -sSL http://bit.ly/2ysbOFE | bash -s $FABRIC_VERSION
+		curl -sSL http://bit.ly/2ysbOFE | bash -s $FABRIC_VERSION -s
 	fi 
 
 }
